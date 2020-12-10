@@ -3,9 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/skeptycal/tree"
-
 	log "github.com/sirupsen/logrus"
+	"github.com/skeptycal/util/zsh/tree"
 )
 
 func main() {
