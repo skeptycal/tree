@@ -3,7 +3,7 @@
 ## Description:
 >Tree is a recursive directory listing command that produces a depth indented listing of files, which is colorized ala dircolors if color tty output is available.
 
->The idea was based on the functionality of the GNU freeware program `tree` and it similarly licensed (GPL v2+)
+>The idea was based on the functionality of the GNU freeware program `tree` and is similarly licensed (GPL v2)
 
 >Tree has been tested under the following operating systems: Linux, macOS, Windows.
 
