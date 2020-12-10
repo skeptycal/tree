@@ -1,12 +1,18 @@
 # tree
 
 ## Description:
->Tree is a recursive directory listing command that produces a depth indented listing of files, which is colorized ala dircolors if the LS_COLORS environment variable is set and output is to tty. Tree has been ported and reported to work under the following operating systems: Linux, FreeBSD, OS X, Solaris, HP/UX, Cygwin, HP Nonstop and OS/2.
+>Tree is a recursive directory listing command that produces a depth indented listing of files, which is colorized ala dircolors if color tty output is available.
+
+>It was based entirely on the functionality of the GNU freeware tree
+
+>Tree has been tested under the following operating systems: Linux, macOS, Windows.
+
+>The following likely work because of Go's wide compiler coverage, but no testing has been done: FreeBSD, Solaris, HP/UX, Cygwin, HP Nonstop and OS/2.
 
 ## Example:
 Here is an example of the output of tree:
 
-
+![terminal output from tree command](original/tree.jpg)
 
 ```sh
     ➜ tree -C
